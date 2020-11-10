@@ -1,5 +1,5 @@
 package digitalhouse.com.br.aula7
 
-class Car(val price: Double, var sold: Boolean, client: Client) {
+class Car(val make: String, val model: String, val year: Int, val color: String, val mileage: Double) {
 
 }
