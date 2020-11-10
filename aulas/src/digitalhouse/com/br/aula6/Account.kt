@@ -1,6 +1,6 @@
 package digitalhouse.com.br.aula6
 
-class Account(val accNum: Int, var balance: Double, owner: Client) {
+class Account(private val accNum: Int, var balance: Double, owner: Client) {
     init {
         println("Conta de número $accNum, pertencente a ${owner.name} ${owner.surname}.\nSaldo da conta: $balance")
     }
