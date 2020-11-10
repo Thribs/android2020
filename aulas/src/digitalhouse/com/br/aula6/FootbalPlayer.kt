@@ -4,7 +4,7 @@ class FootbalPlayer(val name: String, var stamina: Int, var joy: Int, var goals:
     fun score(){
         stamina -= 5
         joy += 10
-        goals += 1
+        goals ++
         println("$name: GOAAAL!")
     }
     fun run(){

@@ -6,7 +6,7 @@ class TrainingSession() {
         player.score()
         player.run()
         println("${player.name}: Agora vou começar a treinar. Minha experiência atual é: ${player.experience}")
-        player.experience += 1
+        player.experience ++
         println("${player.name}: Eu treinei a tarde toda e minha experiência é: ${player.experience}")
     }
 }
