@@ -1,8 +1,8 @@
 package digitalhouse.com.br.aula8
 
-class CheckingAccount(private val checkLimit: Double, balance: Double, client: Client) : Account(balance, client) {
+class CheckingAccount(private val overdraft: Double, balance: Double, client: Client) : Account(balance, client) {
     init {
-        println("Conta Corrente. Limite de cheque especial: RS$$checkLimit")
+        println("Conta Corrente. Limite de cheque especial: RS$$overdraft")
     }
     fun depositCash(amount: Double){
         deposit(amount)
@@ -12,7 +12,7 @@ class CheckingAccount(private val checkLimit: Double, balance: Double, client: C
         return
     }
     override fun withdraw(amount: Double){
-        if (amount<=balance+checkLimit){
+        if (amount<=balance+overdraft){
             balance -= amount
             println("Cliente ${client.surname} sacou RS$$amount de sua conta. Saldo atual: RS$$balance")
             return
