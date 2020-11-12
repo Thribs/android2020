@@ -14,5 +14,4 @@ fun main() {
     contaRafael.deposit(500.00)
     contaThiago.withdraw(100.0)
     contaRafael.withdraw(300.0)
-
 }
