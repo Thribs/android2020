@@ -1,5 +1,5 @@
 package digitalhouse.com.br.aula9.exercicio1
 
-class Time(hour: Int, minute: Int) {
+class Time(val hour: Int, val minute: Int) {
 
 }
