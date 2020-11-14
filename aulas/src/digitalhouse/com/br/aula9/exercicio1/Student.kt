@@ -15,7 +15,10 @@ class Student(val studentID: Int,val name: String,val surname: String) {
             println('.')
             return
         }
-        println()
+        if(arrivalTime.minute>classroom.startingTime.minute){
+            println(", com um atraso de ${arrivalTime.minute-classroom.startingTime.minute}minutos.")
+        }
+        println('.')
     }
     fun doHomework(classroom: Classroom){
         println("O aluno $name $surname está fazendo o dever-de-casa da aula de ${classroom.subject}.")

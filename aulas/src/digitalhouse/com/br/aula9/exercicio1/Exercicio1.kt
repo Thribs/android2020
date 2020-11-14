@@ -6,8 +6,10 @@ fun main() {
     val thiago = Student(1, "Thiago", "Ribeiro")
     val jessica = Student(2, "Jessica","Fernandes")
     val jose = Teacher(1, "José")
-    val aulas1Sem = arrayListOf<Classroom>(oop, kotlin)
-    val alunosAndroid = arrayListOf<Student>(jessica, thiago)
+    val aulas1Sem = arrayListOf(oop, kotlin)
+    val alunosAndroid = arrayListOf(jessica, thiago)
     val android = Course("Desenvolvimento Android", aulas1Sem,alunosAndroid, jose)
     val classOf2020 = Class("Turma de 2020", android)
+    jessica.attendClass(kotlin, Time(19,30))
+    thiago.attendClass(kotlin,Time(19,32))
 }
