@@ -1,7 +1,7 @@
 package digitalhouse.com.br.aula10
 
-class Standard(valor: Double) : Ticket(valor) {
+class Standard(cost: Double) : Ticket(cost) {
     override fun printCost() {
-        println("Ingresso normal")
+        println("O ingresso normal custa R$${cost}0.")
     }
 }
