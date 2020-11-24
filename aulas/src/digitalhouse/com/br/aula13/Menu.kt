@@ -45,6 +45,6 @@ fun main() {
     // Opção 3
     accountNumber = 1002
     var account = nubank.searchAccount(1002)
-    nubank.removeAccount(account)
+//    nubank.removeAccount(account)
 
 }
