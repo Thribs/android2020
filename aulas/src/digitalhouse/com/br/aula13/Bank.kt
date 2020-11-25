@@ -12,7 +12,6 @@ class Bank : Printable {
         }
         return null
     }
-
     override fun show() {
         for (account in accounts){
             account.show()

@@ -1,5 +1,4 @@
 package digitalhouse.com.br.aula13
-
 abstract class BankingAccount(val accountNumber: Int, var balance: Double) : Printable {
     init {
         println("Conta $accountNumber criada com saldo de R$${balance}0")
@@ -17,7 +16,7 @@ abstract class BankingAccount(val accountNumber: Int, var balance: Double) : Pri
         return true
     }
     fun wire(amount: Double, account: BankingAccount): Boolean{
-        if(accountNumber !== account.accountNumber) {
+        if(accountNumber != account.accountNumber) {
             if(withdraw(amount)) {
                 account.deposit(amount)
                 println("\nTransferido R$${amount}0 para a conta ${account.accountNumber}")

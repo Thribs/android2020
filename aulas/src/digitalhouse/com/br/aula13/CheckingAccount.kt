@@ -1,6 +1,6 @@
 package digitalhouse.com.br.aula13
 
-class CheckingAccount(accountNumber: Int, balance: Double, val overdraft: Double) : BankingAccount(accountNumber, balance) {
+class CheckingAccount(accountNumber: Int, balance: Double = 0.0, private val overdraft: Double = 0.0) : BankingAccount(accountNumber, balance) {
     override fun withdraw(amount: Double): Boolean {
         if(amount<=balance+overdraft){
             balance -= amount
