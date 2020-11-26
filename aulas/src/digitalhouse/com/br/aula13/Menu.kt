@@ -173,3 +173,7 @@ fun readDouble(): Double {
     }
     return double
 }
+
+fun Bank.teste() {
+
+}
