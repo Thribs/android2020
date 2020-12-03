@@ -2,8 +2,8 @@ package digitalhouse.com.br.aula16
 
 fun main(){
     val loteriaDosSonhos = mapOf(0 to "Ovos",1 to "Água",2 to "Escopeta", 3 to "Cavalo",4 to "Dentista",5 to "Fogo")
-    val apelidos = mapOf<String, List<String>>(
-            "João" to listOf<String>("Juan","Fissura","Maromba"),
+    val apelidos = mapOf(
+            "João" to listOf("Juan","Fissura","Maromba"),
             "Miguel" to listOf("Night Watch", "Bruce Wayne", "Tampinha"),
             "Maria" to listOf("Wonder Woman","Mary","Marllene"),
             "Lucas" to listOf("Lukinha","Jorge","George")
@@ -21,7 +21,7 @@ fun main(){
     println(emptySet)
 
     apelidos.forEach {
-        println("Meu(inha) amigo(a) ${it.key} tem os apelidos: ${it.value}")
+        println("Meu(minha) amigo(a) ${it.key} tem os apelidos: ${it.value}")
     }
 
 

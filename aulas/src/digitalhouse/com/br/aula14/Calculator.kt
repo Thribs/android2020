@@ -1,12 +1,36 @@
 package digitalhouse.com.br.aula14
 
-/*
-Crie uma calculadora:
-Sua calculadora deve ser capaz de realizar operações matemáticas recebendo 2 parâmetros de entrada e retornando o resultado da operação.
-Implemente as operações de soma, subtração, multiplicação e divisão.
-Teste sua calculadora na função main (a calculadora deve executar as operacoes).
-Agora na sua função main crie lambda functions para cada uma das operações matemáticas sem a utilização de interfaces.
-Teste sua nova calculadora sem utilizar interfaces.
- */
-class Calculator {
+class Calculator : Operations{
+    override fun sum(a: Double, b: Double): Double {
+        return a+b
+    }
+
+    override fun subtract(a: Double, b: Double): Double {
+        return a-b
+    }
+
+    override fun multiply(a: Double, b: Double): Double {
+        return a*b
+    }
+
+    override fun divide(a: Double, b: Double): Double {
+        if (b == 0.0) {
+            println("Erro. Divisão por zero")
+            return 0.0
+        }
+        return a/b
+    }
+    fun fancySum(a: Double, b: Double): Double {
+        return 0.0
+    }
+    fun fancySubtract(a: Double, b: Double): Double {
+        return 0.0
+    }
+    fun fancyMultiply(a: Double, b: Double): Double {
+        return 0.0
+    }
+    fun fancyDivide(a: Double, b: Double): Double {
+        return 0.0
+    }
+
 }
