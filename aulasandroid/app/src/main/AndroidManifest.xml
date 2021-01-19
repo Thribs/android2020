@@ -9,10 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AulasAndroid">
+        <activity android:name=".MainActivityFragments">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".teste"
             android:label="@string/title_activity_teste"
-            android:theme="@style/Theme.AulasAndroid.NoActionBar"></activity>
+            android:theme="@style/Theme.AulasAndroid.NoActionBar" />
         <activity android:name=".Snackbar" />
         <activity android:name=".MainActivity">
             <intent-filter>
