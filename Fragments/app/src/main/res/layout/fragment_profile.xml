@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        tools:text="Name: José Santos"/>
+        tools:text="email: email@domain.com"/>
     <Space
         android:layout_width="wrap_content"
         android:layout_height="20dp"/>
@@ -27,6 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        tools:text="Name: José Santos"/>
+        tools:text="Phone: 555-xxx-xxx"/>
 
 </LinearLayout>
