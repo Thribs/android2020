@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
         android:theme="@style/Theme.ViewPager.AppBarOverlay">
-
     </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
