@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 
-class MainActivity : AppCompatActivity() {
+class YouFood : AppCompatActivity() {
 
     val viewPager by lazy { findViewById<ViewPager2>(R.id.view_pager) }
     val tabs by lazy { findViewById<TabLayout>(R.id.tabs) }
