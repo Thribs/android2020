@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4da84f9-1244-4c28-8131-7b988534b38d" name="Default Changelist" comment="&quot;Exercícios aula 11&quot;">
+      <change afterPath="$PROJECT_DIR$/src/digitalhouse/com/br/aula14/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/digitalhouse/com/br/aula14/Operations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/META-INF/aulas.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/META-INF/aulas.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Contract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Document.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Picture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Printable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Printable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula11/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Coca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Coca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula12/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/BankingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/BankingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/CheckingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/MenuKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/MenuKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Printable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Printable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/Report.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula13/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula14/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula14/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula16/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula16/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula16/Prova.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula16/Prova.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula17/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula17/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula6/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula6/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula8/SantanderKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula8/SantanderKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio1/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio1/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio1/Exercicio1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio1/Exercicio1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio2/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio3/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio3/Stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio3/StoreKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aulas/digitalhouse/com/br/aula9/exercicio3/StoreKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/digitalhouse/com/br/aula12/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/digitalhouse/com/br/aula12/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/digitalhouse/com/br/aula14/Calculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/digitalhouse/com/br/aula14/Calculator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/digitalhouse/com/br/aula16/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/digitalhouse/com/br/aula16/Main.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kFpuYxHwUA6iNQ5RGo2OvcaK1A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="digitalhouse.com.br.aula16" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainKt">
+    <configuration name="Exercicio1Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="aulas" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="digitalhouse.com.br.aula10.Exercicio1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="aulas" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="digitalhouse.com.br.aula9.exercicio1.Exercicio1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="aulas" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="digitalhouse.com.br.aula14.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="aulas" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="digitalhouse.com.br.aula13.MenuKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SantanderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="aulas" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="digitalhouse.com.br.aula8.SantanderKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.MenuKt" />
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.Exercicio1Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4da84f9-1244-4c28-8131-7b988534b38d" name="Default Changelist" comment="" />
+      <created>1605306422406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605306422406</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Exercícios aula 11&quot;">
+      <created>1605572332263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605572332263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;Exercícios aula 11&quot;">
+      <created>1605572345648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605572345648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fim da aula 10" />
+    <MESSAGE value="&quot;Exercícios aula 11&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Exercícios aula 11&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/digitalhouse/com/br/aula10/VIPTicket.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
