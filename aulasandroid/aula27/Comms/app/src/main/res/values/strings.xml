@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Comms</string>
+    <string name="name">Nome/Empresa</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefone</string>
+    <string name="password">Senha</string>
+    <string name="passwordCheck">Confirmar senha</string>
 </resources>
