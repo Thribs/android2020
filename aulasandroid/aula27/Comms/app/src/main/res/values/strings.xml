@@ -5,4 +5,5 @@
     <string name="phone">Telefone</string>
     <string name="password">Senha</string>
     <string name="passwordCheck">Confirmar senha</string>
+    <string name="submit">Cadastrar</string>
 </resources>

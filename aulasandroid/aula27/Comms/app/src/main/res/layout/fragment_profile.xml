@@ -18,7 +18,7 @@
             android:layout_width="20dp"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/profile_tv_name"
+            android:id="@+id/tv_profile_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/name"/>
@@ -38,7 +38,7 @@
             android:layout_width="20dp"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/profile_tv_email"
+            android:id="@+id/tv_profile_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/email"/>
@@ -58,7 +58,7 @@
             android:layout_width="20dp"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/profile_tv_phone"
+            android:id="@+id/tv_profile_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/phone"/>
