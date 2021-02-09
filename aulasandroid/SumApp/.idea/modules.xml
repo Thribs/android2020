@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SumApp.iml" filepath="$PROJECT_DIR$/.idea/modules/SumApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SumApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SumApp.app.iml" />
-    </modules>
-  </component>
-</project>
