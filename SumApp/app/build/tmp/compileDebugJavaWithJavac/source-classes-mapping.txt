@@ -1,0 +1,2 @@
+com/example/sumapp/BuildConfig.java
+ com.example.sumapp.BuildConfig

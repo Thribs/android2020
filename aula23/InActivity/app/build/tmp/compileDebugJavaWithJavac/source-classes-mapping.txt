@@ -1,0 +1,2 @@
+com/example/inactivity/BuildConfig.java
+ com.example.inactivity.BuildConfig
