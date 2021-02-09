@@ -1,11 +1,14 @@
 package com.example.comms
 
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
 import com.google.android.material.textfield.TextInputLayout
 
@@ -35,15 +38,21 @@ class FragmentForm : Fragment() {
         button.setOnClickListener {
             onFinishForm()
         }
+        nameField?.doAfterTextChanged { clearForm() }
+        emailField?.doAfterTextChanged { clearForm() }
+        phoneField?.doAfterTextChanged { clearForm() }
+        passField?.doAfterTextChanged { clearForm() }
+        passCheckField?.doAfterTextChanged { clearForm() }
     }
+
+
 
     private fun onFinishForm() {
         val userDataContract = requireActivity() as UserDataContract
-        val formChek = false
 
         val name = nameField?.text.toString() ?: "Name"
-        val email = emailField?.text.toString() ?: "Name"
-        val phone = phoneField?.text.toString() ?: "Name"
+        val email = emailField?.text.toString() ?: "Email"
+        val phone = phoneField?.text.toString() ?: "Phone"
         val password = passField?.text.toString()
         val passwordCheck = passCheckField?.text.toString()
 
@@ -69,5 +78,15 @@ class FragmentForm : Fragment() {
             userDataContract.finishForm(name, email, phone)
         }
         else userDataContract.finishForm()
+    }
+
+    private fun clearForm() {
+        val userDataContract = requireActivity() as UserDataContract
+        userDataContract.finishForm()
+        nameLayout?.error = null
+        emailLayout?.error = null
+        phoneLayout?.error = null
+        passLayout?.error = null
+        passCheckLayout?.error = null
     }
 }
