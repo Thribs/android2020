@@ -9,7 +9,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CALCULADORA"
+        android:text="@string/title"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,32 +27,50 @@
         app:layout_constraintTop_toTopOf="parent"
         android:orientation="vertical">
 
-        <com.google.android.material.textfield.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/first_num"
-                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:gravity="center">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Digite um número" />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_weight="90">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/first_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/first_num" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
         <Space
             android:layout_width="match_parent"
             android:layout_height="40dp"/>
-        <com.google.android.material.textfield.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:gravity="center">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/second_num"
-                android:layout_width="match_parent"
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Digite outro número" />
-        </com.google.android.material.textfield.TextInputLayout>
-            <Space
+                android:layout_weight="90">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/second_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/second_num" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+        <Space
                 android:layout_width="match_parent"
                 android:layout_height="20dp"/>
             <Button
@@ -57,16 +78,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="CALCULAR"/>
+                android:text="@string/sum"/>
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="80dp"/>
-            <TextView
-                android:id="@+id/result"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:hint="Resultado"/>
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result"/>
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="Resultado"/>
+            </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

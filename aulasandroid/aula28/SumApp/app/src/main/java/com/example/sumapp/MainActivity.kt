@@ -1,7 +1,10 @@
 package com.example.sumapp
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.TextView
 import com.google.android.material.textfield.TextInputEditText
@@ -20,10 +23,13 @@ class MainActivity : AppCompatActivity() {
             val secondNum = secondNumField.text.toString().toInt()
             val result = sum(firstNum, secondNum).toString()
             resultField.text = result
-            //writeResult(result)
+            it.hideKeyboard()
         }
 
     }
     private fun sum(x: Int, y: Int) : Int { return x + y }
-    private fun writeResult(any: Int){ resultField.text =  any.toString()}
+    fun View.hideKeyboard() {
+        val inputManager = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputManager.hideSoftInputFromWindow(windowToken, 0)
+    }
 }
