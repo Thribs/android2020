@@ -18,6 +18,8 @@ class StudentsAdapter(private val studentsList: MutableList<Student>) :
     }
     override fun getItemCount() = studentsList.size
 
-    fun addStudent() =
+    fun addStudent() {
         studentsList.add(studentsList.size, Student("Student ${studentsList.size + 1}", "Registration ${studentsList.size + 1}"))
+        notifyDataSetChanged()
+    }
 }

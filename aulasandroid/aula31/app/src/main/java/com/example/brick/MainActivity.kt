@@ -23,8 +23,7 @@ class MainActivity : AppCompatActivity() {
         recycler.adapter = adapter
 
         button.setOnClickListener {
-            StudentsAdapter(students).addStudent()
-            adapter.notifyDataSetChanged()
+            adapter.addStudent()
         }
     }
 
