@@ -1,9 +1,13 @@
-package com.example.brick
+package com.example.brick.adapter
 
-import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.brick.R
+import com.example.brick.model.Student
+import com.example.brick.adapter.viewholder.StudentViewHolder
+import com.example.brick.view.StudentDetailActivity
 
 class StudentsAdapter(private val studentsList: MutableList<Student>) :
     RecyclerView.Adapter<StudentViewHolder>() {
@@ -15,6 +19,11 @@ class StudentsAdapter(private val studentsList: MutableList<Student>) :
     override fun onBindViewHolder(holder: StudentViewHolder, position: Int) {
         holder.name.text = studentsList[position].name
         holder.registration.text = studentsList[position].registration
+        holder.cardview.setOnClickListener {
+            val intent = Intent(it.context, StudentDetailActivity::class.java)
+            intent.putExtra("NAME", studentsList[position].name)
+            intent.putExtra("REGISTRATION", studentsList[position].registration)
+        }
     }
     override fun getItemCount() = studentsList.size
 

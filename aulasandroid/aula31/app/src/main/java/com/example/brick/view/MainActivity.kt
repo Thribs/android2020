@@ -1,11 +1,14 @@
-package com.example.brick
+package com.example.brick.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.brick.R
+import com.example.brick.model.Student
+import com.example.brick.adapter.StudentsAdapter
 
 class MainActivity : AppCompatActivity() {
     val recycler by lazy { findViewById<RecyclerView>(R.id.recyclerview) }
@@ -30,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     private fun getStudents(): MutableList<Student> {
         val students = mutableListOf<Student>()
         for (i in 1..30){
-            val student = Student("Student $i","Registration $i")
+            val student = Student("Student $i", "Registration $i")
             students.add(student)
             }
         return students
