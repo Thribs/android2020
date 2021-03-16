@@ -1,11 +1,12 @@
-package com.digitalhouse.arch
+package com.digitalhouse.arch.ui.products
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.digitalhouse.arch.R
 
-class ProductsActivity : AppCompatActivity() {
+class NewProductActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_products)
+        setContentView(R.layout.activity_new_product)
     }
 }
