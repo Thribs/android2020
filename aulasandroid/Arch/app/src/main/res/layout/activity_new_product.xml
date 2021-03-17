@@ -9,8 +9,8 @@
         android:id="@+id/new_product_product_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="20dp"
-        app:hint="Product"
+        android:layout_margin="60dp"
+        android:hint="Product"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -24,8 +24,8 @@
         android:id="@+id/new_product_price_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        app:hint="Price"
+        android:layout_margin="60dp"
+        android:hint="Price"
         app:layout_constraintTop_toBottomOf="@id/new_product_product_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -36,9 +36,11 @@
             android:layout_height="wrap_content"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
+        android:id="@+id/new_product_submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="40dp"
+        android:layout_margin="120dp"
+        android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>

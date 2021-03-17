@@ -1,5 +1,6 @@
 package com.digitalhouse.arch.ui.products
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -24,9 +25,6 @@ class ProductsActivity : AppCompatActivity() {
 
         // Create a ViewModel the first time the system calls an activity's onCreate() method.
         // Re-created activities receive the same MyViewModel instance created by the first activity.
-
-        // Use the 'by viewModels()' Kotlin property delegate
-        // from the activity-ktx artifact
         val factory = InjectorUtils.provideProductsViewModelFactory()
         val viewModel = ViewModelProvider(this, factory)
             .get(ProductsViewModel::class.java)
@@ -44,7 +42,7 @@ class ProductsActivity : AppCompatActivity() {
 
         binding.newProductButton.setOnClickListener() {
             val intent = Intent(this, NewProductActivity::class.java)
-            startActivity(intent)
+            startActivityForResult(intent, Activity.RESULT_OK)
         }
     }
 }
