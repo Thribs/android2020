@@ -14,5 +14,4 @@ class ProductViewHolder(productView: View) : RecyclerView.ViewHolder(productView
     val productTextView by lazy { productView.findViewById<TextView>(R.id.text_view_product_name) }
     val priceTextView by lazy { productView.findViewById<TextView>(R.id.text_view_product_price) }
     val productCheckBox by lazy { productView.findViewById<CheckBox>(R.id.product_checkbox) }
-
 }

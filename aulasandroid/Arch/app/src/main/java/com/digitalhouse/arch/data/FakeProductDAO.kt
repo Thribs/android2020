@@ -30,5 +30,7 @@ class FakeProductDAO {
     // shouldn't be changed from other classes
     fun getProducts() = products as LiveData<List<Product>>
 
+    fun productCheck(product: Product, check: Boolean) { product.isChecked = check }
+
 
 }

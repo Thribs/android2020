@@ -9,4 +9,6 @@ class ProductsViewModel(private val productsRepository: ProductsRepository) : Vi
     fun addProduct(product: Product) = productsRepository.addProduct(product)
 
     fun getProducts() = productsRepository.getProducts()
+
+    fun productCheck(product: Product, check: Boolean) = productsRepository.productCheck(product, check)
 }

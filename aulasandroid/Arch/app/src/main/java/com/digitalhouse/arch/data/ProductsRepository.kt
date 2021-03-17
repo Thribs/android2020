@@ -16,6 +16,8 @@ class ProductsRepository private constructor(private val productDAO: FakeProduct
 
     fun getProducts() = productDAO.getProducts()
 
+    fun productCheck(product: Product, check: Boolean) { productDAO.productCheck(product, check) }
+
     companion object {
         // Singleton instantiation you already know and love
         @Volatile private var instance: ProductsRepository? = null
