@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -35,14 +36,21 @@ class ProductsActivity : AppCompatActivity() {
         })
 
         products = viewModel.getProducts()
+        val productsList = products.value ?: listOf()
 
         val recycler = binding.productsRecyclerView
-        recycler.adapter = ProductsAdapter(products, this)
+        recycler.adapter = ProductsAdapter(productsList)
         recycler.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
 
         binding.newProductButton.setOnClickListener() {
             val intent = Intent(this, NewProductActivity::class.java)
-            startActivityForResult(intent, Activity.RESULT_OK)
+            getActivityForResult.launch(intent)
         }
+    }
+    lateinit var name: String
+    private val getActivityForResult =
+    registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            val resultIntent = result.data
+            name = resultIntent?.getStringExtra("name") ?: "Product name"
     }
 }
