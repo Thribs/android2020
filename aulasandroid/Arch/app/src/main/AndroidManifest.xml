@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/ic_measure"
         android:supportsRtl="true"
         android:theme="@style/Theme.Arch">
-        <activity android:name=".ui.products.NewProductActivity"></activity>
+        <activity android:name=".ui.products.NewProductActivity"/>
         <activity android:name=".ui.products.CartActivity" />
         <activity android:name=".ui.products.ProductsActivity">
             <intent-filter>
