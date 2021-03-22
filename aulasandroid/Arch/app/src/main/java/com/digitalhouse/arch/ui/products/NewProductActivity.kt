@@ -17,8 +17,8 @@ class NewProductActivity : AppCompatActivity() {
 
         binding.newProductSubmitButton.setOnClickListener {
             setResult(123, Intent().apply {
-                putExtra("name", binding.newProductProductNameEditText.toString())
-                putExtra("price", binding.newProductProductPriceEditText.toString().toDouble())
+                putExtra("name", binding.newProductProductNameEditText.text.toString())
+                putExtra("price", binding.newProductProductPriceEditText.text.toString().toDouble())
             } )
             finish()
         }

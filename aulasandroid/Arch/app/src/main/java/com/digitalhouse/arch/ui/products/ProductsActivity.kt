@@ -22,6 +22,8 @@ class ProductsActivity : AppCompatActivity() {
 
     private lateinit var viewModel: ProductsViewModel
 
+    private lateinit var recycler: RecyclerView
+
     val newProductResult = registerForActivityResult(NewProductContract()) { product ->
         viewModel.addProduct(product)
     }
@@ -36,18 +38,18 @@ class ProductsActivity : AppCompatActivity() {
         // Create a ViewModel the first time the system calls an activity's onCreate() method.
         // Re-created activities receive the same MyViewModel instance created by the first activity.
         val factory = InjectorUtils.provideProductsViewModelFactory()
-        val viewModel = ViewModelProvider(this, factory)
+        viewModel = ViewModelProvider(this, factory)
             .get(ProductsViewModel::class.java)
         // Observing LiveData from the ProductsViewModel, which in turn observes
         // LiveData from the repository, which observes LiveData from the DAO :)
         viewModel.getProducts().observe(this, Observer<List<Product>> { products ->
-            // Update the list of products
+            (recycler.adapter as ProductsAdapter).addProduct(products.last())
         })
 
         products = viewModel.getProducts()
         val productsList = products.value ?: listOf()
 
-        val recycler = binding.productsRecyclerView
+        recycler = binding.productsRecyclerView
         recycler.adapter = ProductsAdapter(productsList)
         recycler.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
 
@@ -65,7 +67,7 @@ class ProductsActivity : AppCompatActivity() {
             Product(
                 0,
                 intent?.getStringExtra("name") ?: "Chickens",
-                intent?.getStringExtra("price")?.toDouble() ?: 0.0
+                intent?.getDoubleExtra("price", 0.0) ?: 0.0
             )
     }
 }

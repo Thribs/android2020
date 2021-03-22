@@ -36,6 +36,10 @@ class ProductsAdapter(val productsList: List<Product>) : RecyclerView.Adapter<Pr
     }
 
     override fun getItemCount() = productsList.size
+    fun addProduct(last: Product) {
+        productsList.toMutableList().add(last)
+        notifyDataSetChanged()
+    }
 
     inner class ProductViewHolder(val binding: ItemProductBinding)
         :RecyclerView.ViewHolder(binding.root)
