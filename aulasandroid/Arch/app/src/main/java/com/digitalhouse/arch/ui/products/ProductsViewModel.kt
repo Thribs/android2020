@@ -1,4 +1,4 @@
-package com.digitalhouse.arch.ui.products
+    package com.digitalhouse.arch.ui.products
 
 import androidx.lifecycle.ViewModel
 import com.digitalhouse.arch.data.Product
