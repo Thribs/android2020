@@ -1,4 +1,4 @@
-package com.digitalhouse.databindingviewmodel.activity
+    package com.digitalhouse.databindingviewmodel.activity
 
 import android.os.Bundle
 import androidx.activity.viewModels
