@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Layout</string>
-    <string name="text">Texto</string>
-    <string name="button_text">Botão</string>
-    <string name="unsplash">Random value from Unsplash</string>
-    <string name="switch_text">Switch</string>
-</resources>
