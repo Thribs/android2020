@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SumApp</string>
+    <string name="result">Resultado:</string>
+    <string name="sum">SOMAR</string>
+    <string name="first_num">Digite um número</string>
+    <string name="second_num">Digite outro número</string>
+    <string name="title">SOMADORA</string>
+</resources>
