@@ -1,5 +1,6 @@
 package space.thribs.mvvmarchitectureandroidbeginners.ui.main.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -27,6 +28,7 @@ class MainViewModel(private val mainRepository: MainRepository) : ViewModel() {
                     users.postValue(Resource.success(userList))
                 }, { throwable ->
                     users.postValue(Resource.error("Something went wrong", null))
+                    Log.wtf("Exception",throwable.message.toString())
                 })
         )
     }
