@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/new_product_product_Edit_Text"
+            android:id="@+id/new_product_product_name_edit_text"
             tools:text="Apple crate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/new_product_price_Edit_Text"
+            android:id="@+id/new_product_product_price_edit_text"
             tools:text="8.00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

@@ -3,7 +3,7 @@ package com.digitalhouse.arch.ui.products
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.digitalhouse.arch.R
+import com.digitalhouse.arch.data.Product
 import com.digitalhouse.arch.databinding.ActivityNewProductBinding
 
 class NewProductActivity : AppCompatActivity() {
@@ -15,11 +15,12 @@ class NewProductActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.newProductSubmitButton.setOnClickListener() {
-            val returnIntent = Intent().apply {
-                putExtra("product",binding.newProductProductEditText.text)
-                putExtra("price",binding.newProductPriceEditText.text)
-            }
+        binding.newProductSubmitButton.setOnClickListener {
+            setResult(123, Intent().apply {
+                putExtra("name", binding.newProductProductNameEditText.toString())
+                putExtra("price", binding.newProductProductPriceEditText.toString().toDouble())
+            } )
+            finish()
         }
     }
 }
