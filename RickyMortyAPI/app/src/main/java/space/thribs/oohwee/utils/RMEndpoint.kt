@@ -5,7 +5,7 @@ import space.thribs.oohwee.data.model.CharactersResponse
 import space.thribs.oohwee.data.model.EpisodesResponse
 import space.thribs.oohwee.data.model.LocationsResponse
 
-interface Endpoint {
+interface RMEndpoint {
 
     @GET("character")
     suspend fun getCharactersResponse() : CharactersResponse

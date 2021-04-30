@@ -7,7 +7,7 @@ data class CharactersResponse(
     @SerializedName("info")
     val info: Info? = null,
     @SerializedName("results")
-    val characters: List<Character?>? = null
+    val characters: List<Character> = listOf()
 ) {
     data class Info(
         @SerializedName("count")
