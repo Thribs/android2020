@@ -1,6 +1,5 @@
 package space.thribs.oohwee.ui.view.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,11 +9,11 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import space.thribs.oohwee.R
-import space.thribs.oohwee.data.model.CharactersResponse
+import space.thribs.oohwee.data.model.character.Character
 import space.thribs.oohwee.databinding.ItemCharacterBinding
 
 class CharactersAdapter(
-    private val characters: List<CharactersResponse.Character>
+    private val characters: List<Character>
     ): RecyclerView.Adapter<CharactersAdapter.CharactersViewHolder>() {
 
     class CharactersViewHolder(view: View) : RecyclerView.ViewHolder(view) {

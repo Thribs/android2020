@@ -1,18 +1,16 @@
 package space.thribs.oohwee.utils
 
 import retrofit2.http.GET
-import space.thribs.oohwee.data.model.CharactersResponse
-import space.thribs.oohwee.data.model.EpisodesResponse
-import space.thribs.oohwee.data.model.LocationsResponse
+import retrofit2.http.Path
+import space.thribs.oohwee.data.model.character.Character
+import space.thribs.oohwee.data.model.character.CharactersResponse
 
 interface RMEndpoint {
 
     @GET("character")
     suspend fun getCharactersResponse() : CharactersResponse
 
-    @GET("location")
-    suspend fun getLocationResponse() : LocationsResponse
+    @GET("character/{}")
+    suspend fun getCharacter(id: String) : Character
 
-    @GET("episode")
-    suspend fun getEpisodeResponse() : EpisodesResponse
 }

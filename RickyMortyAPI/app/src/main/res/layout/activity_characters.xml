@@ -5,7 +5,7 @@
     <data>
         <import type="java.util.List" />
         <import type="space.thribs.oohwee.ui.viewmodel.CharactersViewModel" />
-        <import type="space.thribs.oohwee.data.model.CharactersResponse.Character" alias="RMCharacter" />
+        <import type="space.thribs.oohwee.data.model.character.Character" alias="RMCharacter" />
         <variable
             name="viewmodel"
             type="CharactersViewModel" />

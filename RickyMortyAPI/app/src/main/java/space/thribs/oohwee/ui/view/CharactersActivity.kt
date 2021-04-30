@@ -3,12 +3,9 @@ package space.thribs.oohwee.ui.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import space.thribs.oohwee.R
-import space.thribs.oohwee.data.model.CharactersResponse
+import space.thribs.oohwee.data.model.character.Character
 import space.thribs.oohwee.databinding.ActivityCharactersBinding
 import space.thribs.oohwee.ui.view.adapter.CharactersAdapter
 import space.thribs.oohwee.ui.viewmodel.CharactersViewModel
@@ -19,7 +16,7 @@ class CharactersActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCharactersBinding
     private lateinit var adapter: CharactersAdapter
     private lateinit var recyclerView: RecyclerView
-    private val characters = mutableListOf<CharactersResponse.Character>()
+    private val characters = mutableListOf<Character>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
